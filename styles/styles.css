@@ -1,0 +1,15 @@
+h3 {
+  background-color: blue;
+}
+
+@media only screen $ (max-width: 768px) {
+  .left-block {
+    background-color: red;
+  }
+}
+
+@media only screen $ (min-width: 375px) {
+  .left-block {
+    background-color: blue;
+  }
+}
