@@ -1,15 +1,41 @@
 h3 {
   background-color: blue;
 }
+.jumbotron {
+  background-color:#519D9E !important;
+}
+.pre-offset {
+  background-color:green;
+}
 
-@media only screen $ (max-width: 768px) {
-  .left-block {
+.offset {
+  background-color: pink;
+}
+
+.content {
+  background-color: brown;
+}
+
+.bobo {
+  background-color: purple;
+}
+
+.promo {
+  background-color: red;
+}
+
+.footer {
+  background-color: yellow;
+}
+
+@media(min-width: 768px) {
+  .pre-offset {
     background-color: red;
   }
 }
 
-@media only screen $ (min-width: 375px) {
-  .left-block {
-    background-color: blue;
+@media(max-width: 475px) {
+  .offset {
+    background-color: purple;
   }
 }
